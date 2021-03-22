@@ -1,5 +1,5 @@
-import { Match } from '../domain/model/match.model'
-import { Standing } from '../domain/model/standing.model'
+import { Match } from '../../domain/model/match.model'
+import { Standing } from '../../domain/model/standing.model'
 
 export interface ApiDataSource {
     syncMatchesFor(
